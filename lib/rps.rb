@@ -1,19 +1,21 @@
 class String
   define_method(:rps) do |opponent_choice|
-    if self == "rock" && opponent_choice == "scissors"
+    if self == "Rock" && opponent_choice == "Scissors"
       1
-    elsif self == "scissors" && opponent_choice == "paper"
+    elsif self == "Scissors" && opponent_choice == "Paper"
       1
-    elsif self == "paper" && opponent_choice == "rock"
+    elsif self == "Paper" && opponent_choice == "Rock"
       1
-    elsif self == "paper" && opponent_choice == "scissors"
-      0
-    elsif self == "rock" && opponent_choice == "paper"
-      0
-    elsif self == "scissors" && opponent_choice == "rock"
+    elsif self == "Paper" && opponent_choice == "Scissors"
+      2
+    elsif self == "Rock" && opponent_choice == "Paper"
+      2
+    elsif self == "Scissors" && opponent_choice == "Rock"
+      2
+    elsif self == opponent_choice
       0
     else
-      nil
+      "error"
     end
   end
 end
