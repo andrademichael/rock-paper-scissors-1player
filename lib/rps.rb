@@ -6,8 +6,14 @@ class String
       1
     elsif self == "paper" && opponent_choice == "rock"
       1
-    else
+    elsif self == "paper" && opponent_choice == "scissors"
       0
+    elsif self == "rock" && opponent_choice == "paper"
+      0
+    elsif self == "scissors" && opponent_choice == "rock"
+      0
+    else
+      nil
     end
   end
 end
