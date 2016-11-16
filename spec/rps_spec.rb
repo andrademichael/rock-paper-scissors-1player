@@ -4,16 +4,16 @@ require('rps')
 
 describe("it will take the user's choice and play a round of Rock, Paper, Scissors") do
   it("returns true if rock is the object and scissors is the argument") do
-    expect("rock".rps("scissors")).to(eq(true))
+    expect("rock".rps("scissors")).to(eq(1))
   end
   it("returns true if scissors is the object and paper is the argument") do
-    expect("scissors".rps("paper")).to(eq(true))
+    expect("scissors".rps("paper")).to(eq(1))
   end
   it("returns true if paper is the object and rock is the argument") do
-    expect("paper".rps("rock")).to(eq(true))
+    expect("paper".rps("rock")).to(eq(1))
   end
   it("returns false in all other combinations") do
-    expect("rock".rps("paper")).to(eq(false))
-    expect("paper".rps("paper")).to(eq(false))
+    expect("rock".rps("paper")).to(eq(0))
+    expect("paper".rps("paper")).to(eq(0))
   end
 end

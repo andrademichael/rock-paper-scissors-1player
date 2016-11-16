@@ -1,13 +1,13 @@
 class String
   define_method(:rps) do |opponent_choice|
     if self == "rock" && opponent_choice == "scissors"
-      true
+      1
     elsif self == "scissors" && opponent_choice == "paper"
-      true
+      1
     elsif self == "paper" && opponent_choice == "rock"
-      true
+      1
     else
-      false
+      0
     end
   end
 end
