@@ -6,6 +6,8 @@ class String
       true
     elsif self == "paper" && opponent_choice == "rock"
       true
+    else
+      false
     end
   end
 end

@@ -12,4 +12,8 @@ describe("it will take the user's choice and play a round of Rock, Paper, Scisso
   it("returns true if paper is the object and rock is the argument") do
     expect("paper".rps("rock")).to(eq(true))
   end
+  it("returns false in all other combinations") do
+    expect("rock".rps("paper")).to(eq(false))
+    expect("paper".rps("paper")).to(eq(false))
+  end
 end
