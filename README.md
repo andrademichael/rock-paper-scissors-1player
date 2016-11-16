@@ -32,7 +32,7 @@
 
 ## Setup/Installation Requirements
 
-* _Works in any web browser [click here] (https://weitzwoman.github.io/rock-paper-scissors) to view on gh-pages._
+* _Works in any web browser._
 
 ## Support and contact details
 
