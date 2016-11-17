@@ -8,31 +8,31 @@
 
 # It will take the user's choice and play a round of Rock, Paper, Scissors
 
-  * returns 1 if Player1 chooses Rock and Player2 chooses Scissors
-    Input: Player1 = Rock, Player2 = Scissors
-    Output: Player 1 wins
-  * returns 1 if Player1 chooses Scissors and Player2 chooses Paper
-    Input: Player1 = Scissors, Player2 = Paper
-    Output: Player 1 wins
-  * returns 1 if Player1 chooses Paper and Player2 chooses Rock
-    Input: Player1 = Paper, Player2 = Rock
-    Output: Player 1 wins
-  * returns 2 if Player2 chooses Rock and Player1 chooses Scissors
-    Input: Player2 = Rock, Player1 = Scissors
-    Output: Player 2 wins
-  * returns 2 if Player2 chooses Scissors and Player1 chooses Paper
-    Input: Player2 = Scissors, Player1 = Paper
-    Output: Player 2 wins
-  * returns 2 if Player2 chooses Paper and Player1 chooses Rock
-    Input: Player2 = Paper, Player1 = Rock
-    Output: Player 2 wins
-  * returns 0 if a tie
-    Input: Player2 = Paper, Player1 = Paper
-    Output: Nobody, it's a tie.
+  _Returns 1 if Player1 chooses Rock and Player2 chooses Scissors_
+    * Input: Player1 = Rock, Player2 = Scissors
+    * Output: Player 1 wins
+  _Returns 1 if Player1 chooses Scissors and Player2 chooses Paper_
+    * Input: Player1 = Scissors, Player2 = Paper
+    * Output: Player 1 wins
+  _Returns 1 if Player1 chooses Paper and Player2 chooses Rock_
+    * Input: Player1 = Paper, Player2 = Rock
+    * Output: Player 1 wins
+  _Returns 2 if Player2 chooses Rock and Player1 chooses Scissors_
+    * Input: Player2 = Rock, Player1 = Scissors
+    * Output: Player 2 wins
+  _Returns 2 if Player2 chooses Scissors and Player1 chooses Paper_
+    * Input: Player2 = Scissors, Player1 = Paper
+    * Output: Player 2 wins
+  _Returns 2 if Player2 chooses Paper and Player1 chooses Rock_
+    * Input: Player2 = Paper, Player1 = Rock
+    * Output: Player 2 wins
+  _Returns 0 if a tie_
+    * Input: Player2 = Paper, Player1 = Paper
+    * Output: Nobody, it's a tie.
 
 ## Setup/Installation Requirements
 
-* _Works in any web browser._
+* _Works in any web browser. Published on [Heroku] (https://thawing-headland-71370.herokuapp.com/)_
 
 ## Support and contact details
 
