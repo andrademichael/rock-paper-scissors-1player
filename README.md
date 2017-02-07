@@ -6,7 +6,7 @@
 
 ## Specifications
 
-# It will take the user's choice and play a round of Rock, Paper, Scissors
+# Takes the user's choice and plays a round of Rock, Paper, Scissors against a randomly generated opponent choice
 
   _Returns 1 if Player1 chooses Rock and Player2 chooses Scissors_
     * Input: Player1 = Rock, Player2 = Scissors
@@ -24,15 +24,18 @@
     * Input: Player2 = Scissors, Player1 = Paper
     * Output: Player 2 wins
   _Returns 2 if Player2 chooses Paper and Player1 chooses Rock_
-    * Input: Player2 = Paper, Player1 = Rock
-    * Output: Player 2 wins
+
+  Input: Player2 = Paper, Player1 = Rock
+  Output: Player 2 wins
+
   _Returns 0 if a tie_
-    * Input: Player2 = Paper, Player1 = Paper
-    * Output: Nobody, it's a tie.
+
+Input: Player2 = Paper, Player1 = Paper
+Output: Nobody, it's a tie.
 
 ## Setup/Installation Requirements
 
-* _Works in any web browser. Published on [Heroku] (https://thawing-headland-71370.herokuapp.com/)_
+_Works in any web browser. Navigate to  (https://thawing-headland-71370.herokuapp.com/)_
 
 ## Support and contact details
 
